@@ -26,6 +26,35 @@ body {
   font-family: 'Avenir-Book', 'Helvetica Neue', Arial, sans-serif;
 }
 
+/******************* Nav Bar **********************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: #ed1f2e;
+}
+
+/**************************************/
+
 hr {
   max-width: 50px;
   border-width: 3px;
