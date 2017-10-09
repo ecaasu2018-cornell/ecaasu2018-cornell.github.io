@@ -3,13 +3,28 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+@font-face {
+ font-family: 'Freight-Sans';
+ src: url('../fonts/Freight Sans Book.otf') format('truetype');
+ font-weight: book;
+ font-style: normal;
+ }
+@font-face {
+ font-family: 'Freight-Sans';
+ src: url('../fonts/Freight Sans Light.otf') format('truetype');
+ font-weight: light;
+ font-style: normal;
+  }
+@font-face { font-family: Avenir-Book; src: url('../fonts/Avenir-Book.otf'); }
+
 body,
 html {
   width: 100%;
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Avenir-Book', 'Helvetica Neue', Arial, sans-serif;
+}
 
 hr {
   max-width: 50px;
@@ -33,7 +48,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Freight-Sans', Arial, sans-serif;
+  font-weight: book;
 }
 #homeLogo{
   text-align: center;
@@ -53,15 +69,17 @@ h6 {
 }
 
 #homeHeading{
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Freight-Sans', sans-serif;
+    font-weight: book;
+    font-weight:bold;
     font-size: 350%;
     color: #ffffff;
     margin-bottom: 0px;
   }
 
   #homeSubHeading{
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Freight-Sans', sans-serif;
+    font-weight: book;
     font-size: 180%;
     color: #ffffff;
     margin-top: 0px;
