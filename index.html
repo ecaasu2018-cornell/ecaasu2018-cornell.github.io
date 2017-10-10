@@ -24,28 +24,55 @@
     <!-- Custom styles for this template -->
     <!-- <link href="css/creative.min.css" rel="stylesheet"> -->
     <link href="css/creative.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
 
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
   </head>
 
   <body id="page-top">
 
-    <ul>
+    <!-- <ul>
       <li><a href="registration.html">Registration</a></li>
       <li><a href="index.html">Home</a></li>
-    </ul>
+    </ul> -->
 
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
           <img id = "homeLogo" src="img/logo1transparentlow.png">
+          <!-- <img id="coverPhoto" src="img/new-cover.jpg"> -->
 
-
-          <p id="homeHeading">ECAASU 2018</p>
+          <!-- <p id="homeHeading">ECAASU 2018</p>
           <h2>CONTINUUM: POWER THROUGH PERSPECTIVE</h2>
           <hr>
-          <p id="homeSubHeading">@ Cornell University</p>
+          <p id="homeSubHeading">@ Cornell University</p> -->
           <!-- <p>If you have any questions, please email conference2018@ecaasu.org.</p> -->
           <!-- <h5>COMING SOON</h5> -->
+          <a href="#registration" class="button">Register Now!</a>
           <div id= "icons">
             <a href= "https://www.facebook.com/ECAASUConference/" target= "_blank"><img src= "img/icons/fb.png"/></a>
         		<a href= "mailto:conference2018@ecaasu.org" target= "_blank"><img src="img/icons/mail.png"/></a>
@@ -57,13 +84,40 @@
 
       <!-- icons -->
 
-    </header>
 
+    </header>
+    <div id="registration">
+      <div id="wufoo-x1j0r0hk0zchn6j">
+      Fill out my <a href="https://ecaasuinc.wufoo.com/forms/x1j0r0hk0zchn6j">online form</a>.
+      </div>
+      <div id="registration">
+        <script type="text/javascript">var x1j0r0hk0zchn6j;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'ecaasuinc',
+        'formHash':'x1j0r0hk0zchn6j',
+        'autoResize':true,
+        'height':'3046',
+        'async':true,
+        'host':'wufoo.com',
+        'header':'show',
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { x1j0r0hk0zchn6j = new WufooForm();x1j0r0hk0zchn6j.initialize(options);x1j0r0hk0zchn6j.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');</script>
+      </div>
+    </div>
+    <div id="section2">
+        <a href="#top">BackToTop</a>
+        <!-- Content goes here -->
+    </div>
 
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
