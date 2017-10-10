@@ -242,7 +242,7 @@ header.masthead {
   header.masthead .header-content {
     position: relative;
     width: 100%;
-    padding: 150px 15px 100px;
+    padding: 15px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
       display: inline-block;
@@ -429,3 +429,41 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
+
+
+/************** Registration ********************/
+#wufoo-x1j0r0hk0zchn6j{
+  padding-left:50px;
+  margin-top:25px;
+  padding-right:50px;
+}
+
+form #running {
+  padding-left: 150px;
+}
+.wufoo-form-container {
+  font-family: 'Freight-Sans', sans-serif;
+  font-weight: book;
+}
+
+
+
+/************* Icons ******************/
+#icons {
+	display: block;
+	height: auto;
+  width: 221px;
+  /*margin-left: 37%;*/
+  margin:auto;
+}
+#icons {
+
+}
+#icons img {
+	width: 35px;
+	height: 35px;
+	margin: 03px;
+	position: relative;
+	display: inline-block;
+}
