@@ -471,8 +471,8 @@ form #running {
 
 /************* Icons ******************/
 #icons {
-	display: block;
-	height: auto;
+  display: block;
+  height: auto;
   width: 221px;
   /*margin-left: 37%;*/
   margin:auto;
@@ -481,9 +481,9 @@ form #running {
 
 }
 #icons img {
-	width: 35px;
-	height: 35px;
-	margin: 03px;
-	position: relative;
-	display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 03px;
+  position: relative;
+  display: inline-block;
 }
