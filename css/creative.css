@@ -471,15 +471,14 @@ form #running {
 
 /************* Icons ******************/
 #icons {
-  display: block;
+  display: relative;
+  float: right;
   height: auto;
   width: 221px;
   /*margin-left: 37%;*/
   margin:auto;
 }
-#icons {
 
-}
 #icons img {
   width: 35px;
   height: 35px;
