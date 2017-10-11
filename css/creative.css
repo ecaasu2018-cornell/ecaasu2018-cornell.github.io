@@ -85,6 +85,7 @@ h6 {
   text-align: center;
   height: 180px;
   z-index: 1;
+  margin-top: 50px;
 }
 
 #ecaasuLogo{
@@ -436,8 +437,21 @@ header.masthead {
 .btn-xl {
   padding: 15px 30px; }
 
+.button-red {
+    background-color: #FC1C1A; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
-
+#reg-btn{
+  margin-top: 500px;
+  text-align: center;
+}
 /************** Registration ********************/
 #wufoo-x1j0r0hk0zchn6j{
   padding-left:50px;
