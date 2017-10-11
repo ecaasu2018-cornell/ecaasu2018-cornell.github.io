@@ -245,7 +245,7 @@ header.masthead {
   header.masthead .header-content {
     position: relative;
     width: 100%;
-    margin-top: -100px;
+    margin-top: -250px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
       display: inline-block;
