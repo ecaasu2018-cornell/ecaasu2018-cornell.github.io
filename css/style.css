@@ -138,7 +138,7 @@ h3 {
 h4 {
 	font-size: 24px;
 	line-height: 26px;
-	font-weight: book;
+	font-weight: 300;
 	font-family:'Freight-Sans';
 	text-transform: uppercase;
 	}
@@ -384,14 +384,14 @@ a:hover{
 	font-size:16px;
 	color:#81868e;
 	font-family:'Freight-Sans';
-	font-weight: book;
+	font-weight: 300;
 	letter-spacing:.37rem;
 }
 
 
 
 
-/* Abouts Section CSS */
+/* Abouts ECAASU CSS */
 .abouts{
 	padding:100px 0px;
 }
@@ -399,7 +399,7 @@ a:hover{
 .single_abouts{}
 .single_abouts h2{
 	font-family:'Freight-Sans';
-	font-weight: book;
+	font-weight: 300;
 	font-size:2.5rem;
 	color:#333b46;
 }
@@ -411,17 +411,17 @@ a:hover{
 }
 
 
-/* wedo section */
+/* Conference */
 .head_title h2{
 	font-family:'Freight-Sans';
-	font-size:20px;
+	font-size:2.5rem;
 	font-weight:book;
 	color:#333b46;
 }
 .head_title p{
 	color: #81868e;
     font-family: 'Freight-Sans';
-    font-weight: book;
+    font-weight: 300;
     max-width: 42%;
     margin: 0 auto;
     line-height: 25px;
@@ -440,7 +440,7 @@ a:hover{
 	/*height: 300px;*/
 	/*margin-bottom: 80px;*/
 }
-.single_wedo:hover{
+/*.single_wedo:hover{
 	background:#e84c3d;
 	color:#fff;
 }
@@ -453,7 +453,7 @@ a:hover{
 }
 .single_wedo:hover .separetor2{
 	border-bottom: 3px solid #fff;
-}
+}*/
 
 .single_left_icon{
     width: 25%;
@@ -476,16 +476,69 @@ a:hover{
 }
 .single_right_text{
 	/*width:70%;*/
-	text-align: justify;
+	/*text-align: justify;*/
 	display:inline-block;
 }
 .single_right_text p{
 	line-height:25px;
 }
 
-/* counterUp section */
+/* Hotel and Lodging */
+.hotel_text h4{
+	font-weight: 400;
+	display:inline-block;
+}
+.side_text h4{
+	font-weight: 200;
+	display:inline-block;
+}
 
-.counterUp{
+.hotel_title h2{
+	font-family:'Freight-Sans';
+	font-size:2.5rem;
+	font-weight:book;
+	color:#333b46;
+}
+.hotel_title p{
+	color: #81868e;
+    font-family: 'Freight-Sans';
+    font-weight: 300;
+    max-width: 70%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.single_hotel{
+	margin-top:40px;
+	border:2px solid #ddd;
+	padding:30px;
+	border-radius:4px;
+	transition:.6s;
+	height: 500px;
+}
+
+.single_left_hotel{
+    width: 18%;
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+	transition:.6s;
+}
+.single_left_hotel i{
+	color: #fff;
+    font-size: 50px;
+    background: #e84c3d;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 62px;
+	
+}
+/* shortFacts section */
+
+.shortFacts{
 	background:url(../images/counterbg.jpg) no-repeat center center fixed;
 	background-size:cover;
 }
@@ -508,7 +561,7 @@ a:hover{
 .sinle_counter h4{
 	color:#fff;
 	font-family:'Freight-Sans';
-	font-weight: book;
+	font-weight: 300;
 }
 .sinle_counter h4 i{
 	color:#fff;
@@ -518,7 +571,7 @@ a:hover{
 .sinle_counter p{
 	color:#fff;
 	font-family:'Freight-Sans';
-	font-weight: book;
+	font-weight: 300;
 }
 
 
@@ -664,7 +717,7 @@ a:hover{
 .single_service p{
 	color: #fff;
 	font-family:'Avenir';
-	font-weight:light;
+	font-weight: 200;
 	max-width:70%;
 }
 .single_service p.service_P{
@@ -688,13 +741,13 @@ a:hover{
     color: #fff;
     font-size: 30px;
     font-family: 'Freight-Sans';
-    font-weight: book;
+    font-weight: 300;
 }
 .main_business_content h4{
 	color:#fff;
     font-size: 20px;
     font-family: 'Freight-Sans';
-    font-weight: book;	
+    font-weight: 300;	
 }
 
 
@@ -780,7 +833,7 @@ a:hover{
 .single_subcribs p{
     font-size: 16px;
     font-family: 'Freight-Sans';
-    font-weight: book;
+    font-weight: 300;
     color: #fff;
     line-height: 25px;
 }
@@ -839,7 +892,7 @@ border: 1px solid #fff;
 .single_team_name p{
 	font-size:12px;
 	font-family:'Freight-Sans';
-	font-weight:light;	
+	font-weight: 200;	
 }
 
 .single_team_overlay{
@@ -986,7 +1039,7 @@ color:#fff;
 .choose_pricing_text p span{
 	color:#666;
 	font-size:14px;
-	font-weight:light;
+	font-weight: 200;
 }
 
 .choose_pricing_text ul li{
