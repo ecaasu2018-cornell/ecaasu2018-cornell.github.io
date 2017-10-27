@@ -32,6 +32,10 @@
 .main_steps_content:after{
    display:none;
 }
+
+.navbar-collapse{
+    display:none;
+}
 	
 	
 }

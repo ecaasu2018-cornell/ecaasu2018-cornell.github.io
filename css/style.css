@@ -101,7 +101,7 @@ input[type="color"],
 	box-shadow:inset 0 0px 0px rgba(0,0,0,0.075);
 }
 .form-control:focus {
-  border-color: #e84c3d;
+  border-color: #ed1f24;
 }
 p {
 	font: normal 16px "Myriad Pro", arial, sans-serif;
@@ -194,11 +194,12 @@ a:hover{
 }
 
 .pink-btn {
-	background: #e84c3d;
+	background: #ed1f24;
 	border: none;
 	margin-left: 10px;
 	color:#fff;
 	transition:.6s;
+	width: 200px;
 }
 
 .pink-btn:hover {
@@ -217,9 +218,9 @@ a:hover{
 	color:#000;
 }
 .btn-lg{
-	background:#e84c3d;
+	background:#ed1f24;
 	color:#fff;
-	border:1px solid #e84c3d;
+	border:1px solid #ed1f24;
 }
 .btn-lg:hover{
 	background:#ff1600;
@@ -236,7 +237,7 @@ a:hover{
     position: relative;
     overflow: hidden;
 }
-.separetor{
+.separator{
     border-bottom: 3px solid #898989;
     overflow: hidden;
     padding:3px 0px;
@@ -244,21 +245,21 @@ a:hover{
     margin: 0 auto;
     margin-bottom: 20px;	
 }
-.separetor2{
+.separator2{
     border-bottom: 3px solid #898989;
     overflow: hidden;
     padding:2px 0px;
     width: 10%;
 	margin-bottom:20px;
 }
-.separetorwhite {
+.separatorwhite {
     border-bottom: 3px solid #fff;
     overflow: hidden;
     padding: 2px 0px;
     width: 10%;
     margin-bottom: 20px;
 }
-.separetorwhite2 {
+.separatorwhite2 {
     border-bottom: 3px solid #fff;
     overflow: hidden;
     padding:3px 0px;
@@ -334,21 +335,21 @@ a:hover{
     font-size: 14px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#e84c3d;
+	color:#ed1f24;
 }
 .main_menu_bg .navbar {
     margin-bottom:0px;
 }
 
-.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-	color:#e84c3d;
+.main_menu_bg .default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	color:#ed1f24;
 	background-color:transparent;
 	
 }
 
 /* logo */
 .main_menu_bg a.navbar-brand{
-	color:#e84c3d;
+	color:#ed1f24;
 	font-weight:700;
 }
 .main_menu_bg a:hover.navbar-brand{
@@ -441,17 +442,17 @@ a:hover{
 	/*margin-bottom: 80px;*/
 }
 /*.single_wedo:hover{
-	background:#e84c3d;
+	background:#ed1f24;
 	color:#fff;
 }
 .single_wedo:hover .single_left_icon i{
 	background: #ffffff;
-	color:#e84c3d;
+	color:#ed1f24;
 }
 .single_wedo:hover .single_right_text h4{
 	color:#fff;
 }
-.single_wedo:hover .separetor2{
+.single_wedo:hover .separator2{
 	border-bottom: 3px solid #fff;
 }*/
 
@@ -465,7 +466,7 @@ a:hover{
 .single_left_icon i{
 	color: #fff;
     font-size: 50px;
-    background: #e84c3d;
+    background: #ed1f24;
     padding: 20px;
     border-radius: 50px;
     width: 100px;
@@ -516,7 +517,13 @@ a:hover{
 	transition:.6s;
 	height: 500px;
 }
-
+.long_hotel{
+	margin-top:40px;
+	border:2px solid #ddd;
+	padding:30px;
+	border-radius:4px;
+	transition:.6s;
+}
 .single_left_hotel{
     width: 18%;
     float: left;
@@ -527,7 +534,7 @@ a:hover{
 .single_left_hotel i{
 	color: #fff;
     font-size: 50px;
-    background: #e84c3d;
+    background: #ed1f24;
     padding: 20px;
     border-radius: 50px;
     width: 100px;
@@ -536,10 +543,15 @@ a:hover{
     line-height: 62px;
 	
 }
+
+#transportation {
+	margin-top:-60px;
+}
+
 /* shortFacts section */
 
 .shortFacts{
-	background:url(../images/counterbg.jpg) no-repeat center center fixed;
+	background:url(../imgs/cornell2.jpg) no-repeat center center fixed;
 	background-size:cover;
 }
 .counter_overlay{
@@ -547,7 +559,7 @@ a:hover{
 	background:rgba(221, 80, 65, 0.70);
 
 }
-.sinle_counter .separetorwhite {
+.sinle_counter .separatorwhite {
     border-bottom: 3px solid #fff;
     overflow: hidden;
     padding: 2px 0px;
@@ -597,10 +609,10 @@ a:hover{
 }
 .single_steps:hover a i{
 	color: #fff;
-	background: #e84c3d;
+	background: #ed1f24;
 }
 .single_steps:hover a{
-	border: 2px solid #e84c3d;
+	border: 2px solid #ed1f24;
 }
 .single_steps a{
     border: 2px solid #ddd;
@@ -614,7 +626,7 @@ a:hover{
 }
 .single_steps a i{
     font-size: 45px;
-    color: #e84c3d;
+    color: #ed1f24;
     background: #ddd;
     width: 100px;
     height: 100px;
@@ -674,13 +686,13 @@ a:hover{
 	color:#fff;
 }
 
-/* service Section */
+/* FAQ SECTION */
 
-.service{
+.faq{
 	overflow:hidden;
 	padding: 80px 0px 0px 0px;
 }
-.main_service_content .single_service .separetorwhite {
+.main_service_content .separatorwhite {
     border-bottom: 3px solid #fff;
     overflow: hidden;
     padding: 2px 0px;
@@ -688,47 +700,54 @@ a:hover{
     margin-bottom: 20px;
 }
 .main_service_content{
-	background:#e84c3d;
+	background:#ececec;
+	display:table-cell;
 }
 
-.single_service_area{
-    background: url(../images/service1.jpg) no-repeat left top;
+/*.single_service_area_one{
+    background: url(../imgs/cornell3.jpeg) no-repeat left top;
     height: 337px;
+    width:100%;
     margin-top: 50px;
-}
-.single_service_area_two{
-	background: url(../images/service2.jpg) no-repeat right top;
+}*/
+/*.single_service_area_two{
+	background: url(../imgs/cornell2.jpg) no-repeat right top;
     height: 337px;
+    width:100%;
 }
 .single_service_area_three{
-    background: url(../images/service3.jpg) no-repeat left top;
+    background: url(../imgs/cornell.jpeg) no-repeat left top;
     height: 337px;	
+    width:100%;
+}*/
+.single_service_area img{
+	margin-top: 10%;
 }
 
 .single_service{
-	color: #fff;
-	margin-top: 20%;
+	/*color: #000;*/
+	margin-top: 10%;
 }
 .single_service h4{
-	color: #fff;
+	/*color: #000;*/
 	
 	
 }
 .single_service p{
-	color: #fff;
+	/*color: #000;*/
 	font-family:'Avenir';
 	font-weight: 200;
-	max-width:70%;
+	max-width:85%;
 }
 .single_service p.service_P{
     max-width: 70%;
-    margin-left: 30%;
+    margin-left: 15%;
 	
 }
 
-/* business Section */
-.business{
-	background:url(../images/businessbg.jpg) no-repeat top center;
+/* LINKS Section */
+.links{
+	background:url(../imgs/cornell.jpeg) no-repeat top center;
 	background-size:cover;
 }
 .overlay_business{
@@ -750,6 +769,23 @@ a:hover{
     font-weight: 300;	
 }
 
+/* REGISTRATION */
+
+/************** Registration ********************/
+
+#wufoo-x1j0r0hk0zchn6j{
+  padding-left:50px;
+  margin-top:25px;
+  padding-right:50px;
+}
+
+form #running {
+  padding-left: 150px;
+}
+.wufoo-form-container {
+  font-family: 'Freight-Sans', sans-serif;
+  font-weight: book;
+}
 
 
 /* mixitup section */
@@ -897,7 +933,7 @@ border: 1px solid #fff;
 
 .single_team_overlay{
 	position:absolute;
-	background:#e84c3d;
+	background:#ed1f24;
 	width:90%;
 	padding:20px 10px;
 	left:5%;
@@ -961,7 +997,7 @@ color:#fff;
 }
 .single_testimonial_img a{
 	margin-top:40px;
-	color:#e84c3d;
+	color:#ed1f24;
 	font-size:20px;
 	font-family:'Freight-Sans';
 	font-weight:book;
@@ -983,7 +1019,7 @@ color:#fff;
 	width:100%;
 }
 .single_blog_overlay{
-    background: #e84c3d;
+    background: #ed1f24;
     width: 50%;
     height: 100%;
     right: 0;
@@ -1021,7 +1057,7 @@ color:#fff;
 	box-shadow:0px 3px 13px 2px rgba(0, 0, 0, 0.1);
 }
 .choose_single_pricing_text h3{
-    background: #e84c3d;
+    background: #ed1f24;
     color: #fff;
     margin: 0;
     padding: 10px 20px;
@@ -1032,7 +1068,7 @@ color:#fff;
 .choose_pricing_text p.price{
 	font-size:30px;
 	font-weight:book;
-	color:#e84c3d;
+	color:#ed1f24;
 	margin-top:30px;
 	text-transform:uppercase;
 }
@@ -1072,7 +1108,7 @@ color:#fff;
     margin-top: 10px;
 }
 .single_message_right p i{
-	color: #e84c3d;
+	color: #ed1f24;
     margin-right: 20px;
     font-size: 25px;
 }
@@ -1083,7 +1119,7 @@ color:#fff;
 /* Footer Section */
 
 .footer{
-	background:#e84c3d;
+	background:#ed1f24;
 }
 
 .main_footer p{
