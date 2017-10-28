@@ -347,6 +347,30 @@ a:hover{
 	
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+.dropdown-content a {
+	font-family: 'Avenir';
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* logo */
 .main_menu_bg a.navbar-brand{
 	color:#ed1f24;
@@ -423,7 +447,7 @@ a:hover{
 	color: #81868e;
     font-family: 'Freight-Sans';
     font-weight: 300;
-    max-width: 42%;
+    max-width: 80%;
     margin: 0 auto;
     line-height: 25px;
 }
@@ -478,7 +502,8 @@ a:hover{
 .single_right_text{
 	/*width:70%;*/
 	/*text-align: justify;*/
-	display:inline-block;
+	min-width:250px;
+	display:block;
 }
 .single_right_text p{
 	line-height:25px;
@@ -773,6 +798,41 @@ a:hover{
 
 /************** Registration ********************/
 
+#registration{
+	margin-top:100px;
+}
+.single_reg a{
+	color: #767676;
+}
+.single_reg:hover a{
+	color:#fff;
+}
+.single_reg{
+	margin-top:40px;
+	border:2px solid #ddd;
+	padding:30px;
+	border-radius:4px;
+	transition:.6s;
+	height: 150px;
+}
+
+.single_reg:hover{
+	background:#898989;
+	color:#fff;
+}
+
+.single_reg:hover .single_right_text h4{
+	color:#fff;
+}
+.single_reg:hover .separator2{
+	border-bottom: 3px solid #fff;
+}
+
+/*.single_reg:hover .single_left_icon i{
+	background: #ffffff;
+	color:#ffffff;
+}*/
+
 #wufoo-x1j0r0hk0zchn6j{
   padding-left:50px;
   margin-top:25px;
@@ -788,7 +848,7 @@ form #running {
 }
 
 
-/* mixitup section */
+/* mixitup section 
 
 
 .main_mixi_content{
