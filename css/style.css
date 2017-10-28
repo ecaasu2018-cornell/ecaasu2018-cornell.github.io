@@ -1134,6 +1134,12 @@ color:#fff;
 	padding:0px 10px;
 }
 
+#sm_icon{
+	width:50;
+	height:50;
+	margin: 10px;
+}
+
 
 
 /* scrollup */
@@ -1172,3 +1178,4 @@ color:#fff;
 	text-decoration: none;
 
 }
+
