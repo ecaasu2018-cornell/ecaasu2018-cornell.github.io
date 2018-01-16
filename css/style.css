@@ -516,12 +516,20 @@ a:hover{
   top: 0;
   transition: opacity 0.25s;
   z-index: 1;
-  color:#fff;
+  
+
 }
 
+.img__overlay p{
+	color:#fff;
+  	font-family: 'Freight-Sans';
+	margin-left: 10%;
+  	margin-right: 10%;
+  	text-align: center;
+}
 .img__overlay:hover {
   opacity: 1;
-  background: rgba(237, 31, 36, 0.5);
+  background: rgba(237, 31, 36, 0.8);
 
 }
 /* Conference */
