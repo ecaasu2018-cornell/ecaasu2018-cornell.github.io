@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="css/owl-carousel/owl.theme.css" />
 	<link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
-	<link rel="stylesheet" href="css/team.js">
+<!--	<link rel="stylesheet" href="css/team.js"> -->
 	
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
@@ -97,26 +97,26 @@
      	<!-- 0 -->
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-      		<input type="image" class="img" id="myBtn" src="img/headshots/jeremiah_kim.jpg" />
-					<!-- The Modal -->
+      		<input type="image" class="img" onclick="displayModal('jeremiah_kim')" class="bio-photo-btn" id="myBtn" src="img/headshots/jeremiah_kim.jpg" />
+					
+          <!-- The Modal -->
 					<div id="myModal" class="modal">
-
-					  <!-- Modal content -->
-					  <div class="modal-content row">
-					    <span class="close">&times;</span>
-					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
-					    	<a class="img-popup" href="#">
-					    		<img src="img/headshots/jeremiah_kim.jpg" style="object-fit:cover;"/>
-					    	</a>
-					    </div>
-					    <div class="col-lg-7 col-md-7 col-sm-12">
-					    	<div class="top-content">
-						    	<p> Jeremiah Kim | Conference Director<p>
-						    	<p> Hometown: Dallas, TX </p>
-						    	<p> Major: English </p>
-						    </div>
-					    	<p>I spend the majority of my day eating peanut butter or thinking about eating peanut butter. When I'm not doing that, I enjoy downloading pdfs and ebooks from the internet and sharing them with people.</p>
-					    </div>
+         <!-- Modal content -->
+            <div class="modal-content row">
+              <span class="close">&times;</span>
+              <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+                <a class="img-popup" href="#">
+                  <img id="modal-img" style="object-fit:cover;"/>
+                </a>
+              </div>
+              <div class="col-lg-7 col-md-7 col-sm-12">
+                <div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+              </div>
 					  </div>
 
 					</div>
@@ -126,11 +126,20 @@
         </div>
       </div>
 
+<!--
+TO DO 2:
+Add onclick="displayModal(<Name used for image path>)" to each "input" HTML element as in line 137
+-->
+
+<!--
+TO DO 3:
+Delete unnecessary/redundant HTML
+-->
       
       <!-- 1 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-      		<input type="image" class="img" id="myBtn" src="img/headshots/nuri_yi.jpg" />
+      		<input onclick="displayModal('nuri_yi')" type="image" class="img" id="myBtn" src="img/headshots/nuri_yi.jpg" />
 					<!-- The Modal -->
 					<div id="myModal" class="modal">
 
@@ -645,31 +654,52 @@
 
     </div>
   <script>
-	// Get the modal
-	var modal = document.getElementById('myModal');
 
-	// Get the button that opens the modal
-	var btn = document.getElementById("myBtn");
 
-	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
+  /*
+  TO DO 1: finish populating this members dictionary with other members
+  Format is {
+    <Name used for image path>: [<Name>, <Position>, <Hometown>, <Major>, <Bio>]
+  }
+  */
 
-	// When the user clicks the button, open the modal 
-	btn.onclick = function() {
-	    modal.style.display = "block";
-	}
+	//Modal info box display on photo click
+  var members = {
+    'jeremiah_kim': ['Jeremiah Kim', 'Conference Director', 'Dallas, TX', 'English', 'I spend the majority of my day eating peanut butter or thinking about eating peanut butter. When I\'m not doing that, I enjoy downloading pdfs and ebooks from the internet and sharing them with people'],
+    'nuri_yi': ['Eunnuri Yi', 'Creative Director', 'Daejeon, South Korea &amp; St. Louis, MO', 'Comparative Literature, Biological Sciences', 'I read (sometimes), run (sometimes), journal (most of the time), and think seriously about how I might fix my sleep cycle (always). I like milk tea, double texting my friends, and making overly niche Spotify playlists to destress :']
 
-	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() {
-	    modal.style.display = "none";
-	}
+  }
+  // Get the modal
+  var modal = document.getElementById('myModal');
 
-	// When the user clicks anywhere outside of the modal, close it
-	window.onclick = function(event) {
-	    if (event.target == modal) {
-	        modal.style.display = "none";
-	    }
-	}
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+
+  function displayModal(name){
+    modal.style.display = "block"
+
+    src="img/headshots/jeremiah_kim.jpg" 
+    document.getElementById('modal-img').src = "img/headshots/" + name + ".jpg"
+
+    document.getElementById('modal-name').innerHTML = members[name][0] + " | " + members[name][1]
+    document.getElementById('modal-hometown').innerHTML = "Hometown: " + members[name][2]
+    document.getElementById('modal-major').innerHTML = "Major: " + members[name][3]
+    document.getElementById('modal-bio').innerHTML = members[name][4]
+
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
 	</script>
 	<script type="text/javascript" src="js/jquery/jquery.js"></script>
 	
