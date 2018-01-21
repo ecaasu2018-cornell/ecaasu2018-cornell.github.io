@@ -125,7 +125,6 @@
           </div>
         </div>
       </div>
-
 <!--
 TO DO 2:
 Add onclick="displayModal(<Name used for image path>)" to each "input" HTML element as in line 137
@@ -134,15 +133,13 @@ Add onclick="displayModal(<Name used for image path>)" to each "input" HTML elem
 <!--
 TO DO 3:
 Delete unnecessary/redundant HTML
--->
-      
+-->      
       <!-- 1 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
       		<input onclick="displayModal('nuri_yi')" type="image" class="img" id="myBtn" src="img/headshots/nuri_yi.jpg" />
 					<!-- The Modal -->
 					<div id="myModal" class="modal">
-
 					  <!-- Modal content -->
 					  <div class="modal-content row">
 					    <span class="close">&times;</span>
@@ -153,11 +150,11 @@ Delete unnecessary/redundant HTML
 					    </div>
 					    <div class="col-lg-7 col-md-7 col-sm-12">
 					    	<div class="top-content">
-						    	<p> Eunnuri Yi | Creative Director<p>
-						    	<p> Hometown: Daejeon, South Korea &amp; St. Louis, MO</p>
-						    	<p> Major: Comparative Literature, Biological Sciences</p>
-						    </div>
-					    	<p>I read (sometimes), run (sometimes), journal (most of the time), and think seriously about how I might fix my sleep cycle (always). I like milk tea, double texting my friends, and making overly niche Spotify playlists to destress :')</p>
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
 					    </div>
 					  </div>
 
@@ -171,7 +168,7 @@ Delete unnecessary/redundant HTML
       <!-- 2 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-      		<input type="image" class="img" id="myBtn" src="img/headshots/michelle_zhao.jpg" />
+      		<input onclick="displayModal('michelle_zhao')" type="image" class="img" id="myBtn" src="img/headshots/michelle_zhao.jpg" />
 					<!-- The Modal -->
 					<div id="myModal" class="modal">
 
@@ -185,11 +182,11 @@ Delete unnecessary/redundant HTML
 					    </div>
 					    <div class="col-lg-7 col-md-7 col-sm-12">
 					    	<div class="top-content">
-						    	<p> Eunnuri Yi | Creative Director<p>
-						    	<p> Hometown: Daejeon, South Korea &amp; St. Louis, MO</p>
-						    	<p> Major: Comparative Literature, Biological Sciences</p>
-						    </div>
-					    	<p>I drink more tea than water, collect to-do lists, and am sad the Metropolitan Museum of Art switched from metal pins to plastic stickers.</p>
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
 					    </div>
 					  </div>
 
@@ -203,10 +200,29 @@ Delete unnecessary/redundant HTML
       <!-- 3 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-      		<a class="img" href="#">
-      			<div class='img__overlay'><p>I am a big fan of basketball and the Lakers even though I am from the Bay Area. I also love trying out new restaurants and foods in my free time.</p></div>
-      			<img src='img/headshots/blank_prof.png' style="object-fit: cover;">
-      		</a>
+      		<input onclick="displayModal('alex_ma')" type="image" class="img" id="myBtn" src="img/headshots/alex_ma.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/alex_ma.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Alex Ma<br />Logistics Director</p>
           </div>
@@ -217,10 +233,29 @@ Delete unnecessary/redundant HTML
       <!-- 4 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-      		<a class="img" href="#">
-      			<div class='img__overlay'><p>I love grocery shopping, watch a lot of those food videos on Facebook, don't like cheese or milk but apparently I'm not lactose intolerant, and can't own pets because I'm afraid of being emotionally attached to things that will inevitably die before me.</p></div>
-      			<img src='img/headshots/becca_lee.jpg' style="object-fit: cover;">
-      		</a>
+      		<input onclick="displayModal('becca_lee')" type="image" class="img" id="myBtn" src="img/headshots/becca_lee.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/becca_lee.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Rebecca Lee<br />Logistics Director</p>
           </div>
@@ -229,8 +264,30 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
+        	<input onclick="displayModal('juliana_hong')" type="image" class="img" id="myBtn" src="img/headshots/juliana_hong.jpg" />
+					<!-- The Modal -->
+						<div id="myModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content row">
+						    <span class="close">&times;</span>
+						    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+						    	<a class="img-popup" href="#">
+						    		<img src="img/headshots/juliana_hong.jpg" style="object-fit:cover;"/>
+						    	</a>
+						    </div>
+						    <div class="col-lg-7 col-md-7 col-sm-12">
+						    	<div class="top-content">
+	                  <p id="modal-name"><p>
+	                  <p id="modal-hometown"> </p>
+	                  <p id="modal-major"></p>
+	                </div>
+	                <p id="modal-bio"></p>
+						    </div>
+						  </div>
+
+						</div>
             <div class='team-member'>
-              <img id='circle' class='img-responsive team-member-photo' src='img/headshots/juliana_hong.jpg' >
               <p style='font-size:18px;'>Juliana Hong<br />Marketing/Outreach Director</p>
           </div>
         </div>
@@ -240,10 +297,29 @@ Delete unnecessary/redundant HTML
       <!-- 6 -->
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class='img__overlay'><p>If you know me at all, you know that I am obsessed with the Bay, drinking coffee/latte art, and Instagram.</p></div>
-        		<img src='img/headshots/anna_tedijanto.JPG' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('anna_tedijanto')" type="image" class="img" id="myBtn" src="img/headshots/anna_tedijanto.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/anna_tedijanto.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p style='font-size:18px;'>Anna Tedijanto<br />Marketing/Outreach Director<br /></p>
           </div>
@@ -328,10 +404,29 @@ Delete unnecessary/redundant HTML
       <!-- 15 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-      		<a class="img" href="#">
-      			<div class="img__overlay"><p>If I'm not studying, you can find me watching TV shows or listening to podcasts. One of my life goals is to raise a shiba inu.</p></div>
-      			<img src='img/headshots/katie_yang.jpg' style="object-fit: cover;">
-      		</a>
+      		<input onclick="displayModal('katie_yang')" type="image" class="img" id="myBtn" src="img/headshots/katie_yang.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/katie_yang.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Katie Yang<br />Logistics Team</p>
           </div>
@@ -351,10 +446,29 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p>I am a senior studying Animal Science and an aspiring veterinarian, with a focus on exotic animals. Besides ECAASU, I am a part of lion dance and illuminations dance troupe. </p></div>
-        		<img src='img/headshots/remy_chan.jpg' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('remy_chan')" type="image" class="img" id="myBtn" src="img/headshots/remy_chan.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/remy_chan.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Remington Chan<br />Logistics Team</p>   
           </div>
@@ -383,10 +497,29 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p style="font-size: 14px;">I am passionate about improving health care through health administration and policy, and I hope to one day pursue a career in hospital operations to advance patient-physician interactions and drive population health. In my free time I enjoy eating ice cream, watching sunsets, and fantasizing about how much better Cornell would be if I had my cat.</p></div>
-        		<img src='img/headshots/kathy_lin.jpg' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('kathy_lin')" type="image" class="img" id="myBtn" src="img/headshots/kathy_lin.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/kathy_lin.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Kathy Lin<br />Logistics Team</p>
           </div>
@@ -414,10 +547,29 @@ Delete unnecessary/redundant HTML
     <!-- 22 -->
     	<div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p>I'm originally from Baltimore, Maryland where my identity was shaped by the clash of cultures around me. At Cornell, I major in Applied Economics and Management, and look forward to working in New York after graduating. </p></div>
-        		<img src='img/headshots/blank_prof.png' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('gwen_shi')" type="image" class="img" id="myBtn" src="img/headshots/gwen_shi.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/gwen_shi.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Gwen Yucong Shi<br />Logistics Team</p>
           </div>
@@ -505,10 +657,29 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p>Hello! I'm Katherine and I'm studying Development Sociology. Some things that I love doing are: finding new eateries, chilling with friends, and petting cats. Things like social activism and discussions on similar topics excite me! </p></div>
-        		<img src='img/headshots/blank_prof.png' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('katherine_tam')" type="image" class="img" id="myBtn" src="img/headshots/katherine_tam.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/katherine_tam.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Katherine Tam<br />Creative Team</p>
           </div>
@@ -517,10 +688,29 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p>New York City and Hong Kong are my favorite cities! Racquetball, puppies, and Grace Lee Boggs are some of the things that keep me sane!</p></div>
-        		<img src='img/headshots/alice_li.jpg' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('alice_li')" type="image" class="img" id="myBtn" src="img/headshots/alice_li.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/alice_li.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Alice Li<br />Creative Team</p>
           </div>
@@ -529,10 +719,29 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p>I’m half Chinese, half Korean, and almost always half asleep. At any given party find me by the guac.</p></div>
-        		<img src='img/headshots/kaitlyn_son.jpg' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('kaitlyn_son')" type="image" class="img" id="myBtn" src="img/headshots/kaitlyn_son.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/kaitlyn_son.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Kaitlyn Son<br />Marketing/Outreach Team</p>
           </div>
@@ -542,10 +751,29 @@ Delete unnecessary/redundant HTML
     <!-- 34 -->
     	<div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p>I like reading, working out, and listening to music while driving. My hair changes color every few months.</p></div>
-        		<img src='img/headshots/iris_cai.jpg' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('iris_cai')" type="image" class="img" id="myBtn" src="img/headshots/iris_cai.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/iris_cai.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Iris Cai<br />Marketing/Outreach Team</p>
           </div>
@@ -584,10 +812,29 @@ Delete unnecessary/redundant HTML
       <!-- 39 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-      		<a class="img" href="#">
-      			<div class="img__overlay"><p>Hello!! I am a pre-physical therapy student that enjoys sport and music. Always down to chill with friends... and eat food :DD</p></div>
-      			<img src='img/headshots/andrew_lee.jpg' style="object-fit: cover;">
-      		</a>
+      		<input onclick="displayModal('andrew_lee')" type="image" class="img" id="myBtn" src="img/headshots/andrew_lee.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/andrew_lee.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Andrew Lee<br />Marketing/Outreach Team</p>
           </div>
@@ -627,10 +874,29 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p>Born in South Korea, I moved to the DMV area when I was three years old. Other than Asian-American identity, I am passionate about design, sustainable living, the NBA, and coffee (plus other hot beverages).</p></div>
-        		<img src='img/headshots/janelle_chung.jpg' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('janelle_chung')" type="image" class="img" id="myBtn" src="img/headshots/janelle_chung.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/janelle_chung.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Janelle Chung<br />Marketing/Outreach Team</p>
           </div>
@@ -639,10 +905,29 @@ Delete unnecessary/redundant HTML
 
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
-        	<a class="img" href="#">
-        		<div class="img__overlay"><p style="font-size: 14px;">I am a sophomore Developmental Sociology major, also minoring in Anthropology and Inequalities Studies. I identify as Korean-American and thus, am actively involved in several Asian-based/interest groups including HanChum (Korean Traditional Dance Team), KASA (Korean American Student Association), and of course ECAASU.</p></div>
-        		<img src='img/headshots/minnie_jung.jpg' style="object-fit: cover;">
-        	</a>
+        	<input onclick="displayModal('minnie_jung')" type="image" class="img" id="myBtn" src="img/headshots/minnie_jung.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/minnie_jung.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
             <p>Minnie Jung<br />Marketing/Outreach Team</p>
           </div>
@@ -665,8 +950,24 @@ Delete unnecessary/redundant HTML
 
 	//Modal info box display on photo click
   var members = {
-    'jeremiah_kim': ['Jeremiah Kim', 'Conference Director', 'Dallas, TX', 'English', 'I spend the majority of my day eating peanut butter or thinking about eating peanut butter. When I\'m not doing that, I enjoy downloading pdfs and ebooks from the internet and sharing them with people'],
-    'nuri_yi': ['Eunnuri Yi', 'Creative Director', 'Daejeon, South Korea &amp; St. Louis, MO', 'Comparative Literature, Biological Sciences', 'I read (sometimes), run (sometimes), journal (most of the time), and think seriously about how I might fix my sleep cycle (always). I like milk tea, double texting my friends, and making overly niche Spotify playlists to destress :']
+    'jeremiah_kim': ['Jeremiah Kim', 'Conference Director', 'Dallas, TX', 'English &#39;19', 'I spend the majority of my day eating peanut butter or thinking about eating peanut butter. When I\'m not doing that, I enjoy downloading pdfs and ebooks from the internet and sharing them with people'],
+    'nuri_yi': ['Eunnuri Yi', 'Creative Director', 'Daejeon, South Korea &amp; St. Louis, MO', 'Comparative Literature, Biological Sciences &#39;20', 'I read (sometimes), run (sometimes), journal (most of the time), and think seriously about how I might fix my sleep cycle (always). I like milk tea, double texting my friends, and making overly niche Spotify playlists to destress :&#39;&#41;'],
+    'michelle_zhao': ['Michelle Zhao', 'Creative Director', 'Dix Hills, NY', 'Industrial and Labor Relations &#39;19', 'I drink more tea than water, collect to-do lists, and am sad the Metropolitan Museum of Art switched from metal pins to plastic stickers.'],
+    'alex_ma': ['Alex Ma', 'Logistics Director', 'Millbrae, CA', 'Industrial and Labor Relations &#39;18', 'I am a big fan of basketball and the Lakers even though I am from the bay area. I also love trying out new restaurants and foods in my free time.'],
+    'becca_lee': ['Rebecca Lee', 'Logistics Director', 'Columbia, MD', 'Psychology &#39;18', 'I love grocery shopping, watch a lot of those food videos on Facebook, don&#39;t like cheese or milk but apparently I&#39;m not lactose intolerant, and can&#39;t own pets because I&#39;m afraid of being emotionally attached to things that will inevitably die before me.'],
+    'juliana_hong': ['Juliana Hong', 'Marketing/Outreach Director', 'Bethlehem, PA', 'Information Science &#39;19', 'I&#39;m an I/ENFP who likes trying new things and eating good food. Catch me in Libe questioning life or looking at cute pictures of my two nephews, DJ and Jonathan.'],
+    'anna_tedijanto': ['Anna Tedijanto', 'Marketing/Outreach Director', 'Cupertino, CA', 'Computer Science &#39;19', 'If you know me at all, you know that I am obsessed with the Bay, drinking coffee/latte art, and exploring new cafes on Instagram!'],
+    'katie_yang': ['Katie Yang', 'Logistics Team', 'Scarsdale, NY', 'Computer Science &#39;21', 'If I&#39;m not studying, you can find me watching TV shows or listening to podcasts. One of my life goals is to raise a shiba inu.'],
+    'remy_chan': ['Remington Chan', 'Logistics Team', 'Manhasset, NY', 'Animal Science &#39;18', 'I am a senior studying Animal Science and an aspiring veterinarian, with a focus on exotic animals. Besides ECAASU, I am a part of lion dance and Illuminations dance troupe.'],
+    'kathy_lin': ['Kathy Lin', 'Logistics Team', 'Pleasanton, CA', 'Policy Analysis and Management &#39;18', 'I am passionate about improving health care through health administration and policy, and I hope to one day pursue a career in hospital operations to advance patient-physician interactions and drive population health. In my free time I enjoy eating ice cream, watching sunsets, and fantasizing about how much better Cornell would be if I had my cat.'],
+    'gwen_shi': ['Gwen Yucong Shi', 'Logistics Team', 'Baltimore, MD', 'Applied Economics and Management &#39;18', 'I&#39;m originally from Baltimore, Maryland where my identity was shaped by the clash of cultures around me. At Cornell, I major in Applied Economics and Management, and look forward to working in New York after graduating.'],
+    'katherine_tam': ['Katherine Tam', 'Creative Team', 'Brooklyn, NY', 'Development Sociology &#39;21', 'Hello! I&#39;m Katherine and I&#39;m studying Development Sociology. Some things that I love doing are: finding new eateries, chilling with friends, and petting cats. Things like social activism and discussions on similar topics excite me!'],
+    'alice_li': ['Alice Li', 'Creative Team', 'Jackson Heights, NYC', 'Operations Research and Engineering &#39;18', 'New York City and Hong Kong are my favorite cities! Racquetball, puppies, and Grace Lee Boggs are some of the things that keep me sane!'],
+    'kaitlyn_son': ['Kaitlyn Son', 'Marketing/Outreach Team', 'Scarsdale, NY', 'Information Science &#39;19', 'I’m half Chinese, half Korean, and almost always half asleep. At any given party find me by the guac.'],
+    'iris_cai': ['Iris Cai', 'Marketing/Outreach Team', 'West Caldwell, NJ', 'Mechanical Engineering &#39;18', 'I like reading, working out, and listening to music while driving. My hair changes color every few months.'],
+    'andrew_lee': ['Andrew Lee', 'Marketing/Outreach Team', 'London, UK', 'Human Biology, Health, and Society &#39;20', 'Hello!! I am a pre-physical therapy student that enjoys sport and music. Always down to chill with friends... and eat food :DD'],
+    'janelle_chung': ['Janelle Chung', 'Marketing/Outreach Team', 'North Potomac, MD', 'Hotel Administration &#39;18', 'Born in South Korea, I moved to the DMV area when I was three years old. Other than Asian-American identity, I am passionate about design, sustainable living, the NBA, and coffee (plus other hot beverages).'],
+    'minnie_jung': ['Minnie Jung', 'Marketing/Outreach Team', 'Ithaca, NY', 'Development Sociology &#39;20', 'I am a sophomore Development Sociology major at Cornell University, also minoring in Anthropology and Inequalities Studies. I identifies as Korean-American and thus, is actively involved in several Asian-based and -interest groups on campus including HanChum (Korean Traditional Dance Team), KASA (Korean American Student Association), and of course ECAASU (East Coast Asian American (and Pacific Islander) Student Union).']
 
   }
   // Get the modal
@@ -679,7 +980,6 @@ Delete unnecessary/redundant HTML
   function displayModal(name){
     modal.style.display = "block"
 
-    src="img/headshots/jeremiah_kim.jpg" 
     document.getElementById('modal-img').src = "img/headshots/" + name + ".jpg"
 
     document.getElementById('modal-name').innerHTML = members[name][0] + " | " + members[name][1]
