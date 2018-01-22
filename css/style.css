@@ -518,11 +518,12 @@ input[type=image]:hover {
 
 .modal-content p{
 	font-family: 'Freight-Sans';
+	font-size:18px;
 }
 
 .top-content p{
 	font-family: 'Avenir-Book';
-	font-size: 16px;
+	font-size: 18px;
 
 }
 
@@ -605,6 +606,7 @@ input:focus {outline:none;}
   background: rgba(237, 31, 36, 0.8);
 
 }
+
 
 /* Conference */
 
@@ -712,7 +714,7 @@ input:focus {outline:none;}
     font-size:18px;
 }
 
-#hotels .single_right_text p{
+#accommodations .single_right_text p{
 	line-height:25px;
 	font-family: 'Avenir';
 	font-size: 18px;

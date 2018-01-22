@@ -42,9 +42,9 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						 </button>
-						 <a class="navbar-brand" href="#">
+						 <a class="navbar-brand" href="index.html">
 							<div class="logo">
-								<img src="imgs/logo.png" href="#home"/>
+								<img src="imgs/logo.png" href="index.html"/>
 							</div>
 						 </a>
 						</div>
@@ -56,15 +56,17 @@
 							<!-- <li class="active"><a href="#home">Home</a></li> -->
 							<!-- <li><a href="#abouts">ABOUT</a></li> -->
 							<li class="dropdown">
-								<a href="#abouts">ABOUT</a>
+								<a href="index.html#abouts">ABOUT</a>
 								<div class="dropdown-content">
 							      <a href="team.html">The Team</a>
 							    </div>
 							</li>
-							<li><a href="#conference">2018 Conference</a>
+							<li><a href="index.html#conference">2018 Conference</a>
+							<li><a href="index.html#accommodations">Accommodations</a></li>
+							<li><a href="index.html#faq">FAQ</a></li>
 							<li class="dropdown">
 								<!-- <a href='#registration'>Register Now</a> -->
-								<a href="#registration" class="dropbtn">Registration</a>
+								<a href="index.html#registration" class="dropbtn">Registration</a>
 							    <div class="dropdown-content">
 							      <a href="https://ecaasuinc.wufoo.com/forms/2018-ecaasu-conference-individual-registration/" target="_blank">Individual</a>
 							      <a href="https://ecaasuinc.wufoo.com/forms/2018-ecaasu-conference-group-sign-up/" target="_blank">Group Sign Up</a>
@@ -72,11 +74,7 @@
 							    </div>
 							</li>
 							<li><a href="http://bit.ly/ecaasu2018workshops" target="_blank">Workshops</a></li>
-							<li><a href="#hotels">Accommodations</a></li>
-							<li><a href="#faq">FAQ</a></li>
-							
-							
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="index.html#contact">Contact</a></li>
 							
 						 </ul>
 						</div><!-- /.navbar-collapse -->
@@ -588,8 +586,30 @@ Delete unnecessary/redundant HTML
       <!-- 24 -->
       <div id='bioholder team' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
+        	<input onclick="displayModal('evelyn_shan')" type="image" class="img" id="myBtn" src="img/headshots/evelyn_shan.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/evelyn_shan.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
-            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/evelyn_shan.jpg'>
             <p>Evelyn Shan<br />Creative Team</p>
           </div>
         </div>
@@ -802,8 +822,30 @@ Delete unnecessary/redundant HTML
       <!-- 38 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
+      		<input onclick="displayModal('james_esp')" type="image" class="img" id="myBtn" src="img/headshots/james_esp.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/james_esp.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
-            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/blank_prof.png'>
             <p>James Espeleta<br />Marketing/Outreach Team</p>
           </div>
         </div>
@@ -967,7 +1009,9 @@ Delete unnecessary/redundant HTML
     'iris_cai': ['Iris Cai', 'Marketing/Outreach Team', 'West Caldwell, NJ', 'Mechanical Engineering &#39;18', 'I like reading, working out, and listening to music while driving. My hair changes color every few months.'],
     'andrew_lee': ['Andrew Lee', 'Marketing/Outreach Team', 'London, UK', 'Human Biology, Health, and Society &#39;20', 'Hello!! I am a pre-physical therapy student that enjoys sport and music. Always down to chill with friends... and eat food :DD'],
     'janelle_chung': ['Janelle Chung', 'Marketing/Outreach Team', 'North Potomac, MD', 'Hotel Administration &#39;18', 'Born in South Korea, I moved to the DMV area when I was three years old. Other than Asian-American identity, I am passionate about design, sustainable living, the NBA, and coffee (plus other hot beverages).'],
-    'minnie_jung': ['Minnie Jung', 'Marketing/Outreach Team', 'Ithaca, NY', 'Development Sociology &#39;20', 'I am a sophomore Development Sociology major at Cornell University, also minoring in Anthropology and Inequalities Studies. I identifies as Korean-American and thus, is actively involved in several Asian-based and -interest groups on campus including HanChum (Korean Traditional Dance Team), KASA (Korean American Student Association), and of course ECAASU (East Coast Asian American (and Pacific Islander) Student Union).']
+    'minnie_jung': ['Minnie Jung', 'Marketing/Outreach Team', 'Ithaca, NY', 'Development Sociology &#39;20', 'I am a sophomore Development Sociology major at Cornell University, also minoring in Anthropology and Inequalities Studies. I identifies as Korean-American and thus, is actively involved in several Asian-based and -interest groups on campus including HanChum (Korean Traditional Dance Team), KASA (Korean American Student Association), and of course ECAASU (East Coast Asian American (and Pacific Islander) Student Union).'],
+    'evelyn_shan': ['Evelyn Shan', 'Creative Team', 'Carmel, IN', 'Government & History &#39;19', 'Just a girl from the Midwest who likes to learn new things, listen to podcasts, and share good memes.'],
+    'james_esp': ['James Espeleta', 'Marketing/Outreach Team', 'Queens, NY', 'Human Biology, Health, and Society &#39;20', 'My name is James and I was born and raised in Queens, NYC. I’m involved with the Cornell Filipino Association and I enjoy dancing!']
 
   }
   // Get the modal
