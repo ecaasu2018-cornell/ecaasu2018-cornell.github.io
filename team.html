@@ -59,10 +59,16 @@
 								<a href="index.html#abouts">ABOUT</a>
 								<div class="dropdown-content">
 							      <a href="team.html">The Team</a>
+							      <a href="schedule.html">Conference Schedule</a>
 							    </div>
 							</li>
 							<li><a href="index.html#conference">2018 Conference</a>
-							<li><a href="index.html#accommodations">Accommodations</a></li>
+							<li class="dropdown">
+								<a href="index.html#accommodations">Accommodations</a>
+								<!-- <div class="dropdown-content">
+									<a href="transportation.html">Getting to Cornell</a>
+								</div> -->
+							</li>
 							<li><a href="index.html#faq">FAQ</a></li>
 							<li class="dropdown">
 								<!-- <a href='#registration'>Register Now</a> -->
@@ -91,7 +97,6 @@
 
     <div class="container" style="margin-top: 120px;">
     	<div id="team-header"> The 2018 Conference Team</div>
-
      	<!-- 0 -->
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
@@ -336,7 +341,7 @@ Delete unnecessary/redundant HTML
       <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
           <div class='team-member'>
-            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/blank_prof.png'>
+            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/joanna_li.jpg'>
             <p>Joanna Li<br />Logistics Team<br /></p>
           </div>
         </div>
@@ -487,6 +492,15 @@ Delete unnecessary/redundant HTML
       </div>
 
       <div id='bioholder' >
+      	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
+          <div class='team-member'>
+            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/elva_lau.jpg'>
+            <p>Elva Lau<br />Logistics Director</p>
+          </div>
+        </div>
+      </div>
+
+      <div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
         	<input onclick="displayModal('remy_chan')" type="image" class="img" id="myBtn" src="img/headshots/remy_chan.jpg" />
 					<!-- The Modal -->
@@ -586,6 +600,14 @@ Delete unnecessary/redundant HTML
         </div>
       </div>
 
+      <div id='bioholder' >
+        <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
+          <div class='team-member'>
+            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/eileen_zhou.jpg'>
+            <p>Eileen Zhou<br />Logistics Team</p>
+          </div>
+        </div>
+      </div>
     <!-- 22 -->
     	<div id='bioholder' >
         <div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
@@ -671,8 +693,30 @@ Delete unnecessary/redundant HTML
       <!-- 26 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
+      		<input onclick="displayModal('rosalind_ma')" type="image" class="img" id="myBtn" src="img/headshots/rosalind_ma.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/rosalind_ma.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+
+					</div>
           <div class='team-member'>
-            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/rosalind_ma.jpg'>
             <p>Rosalind Ma<br />Creative Team</p>
           </div>
         </div>
@@ -681,8 +725,29 @@ Delete unnecessary/redundant HTML
       <!-- 27 -->
       <div id='bioholder' >
       	<div class='col-md-4 col-lg-3 col-sm-4 col-xs-4'>
+      		<input onclick="displayModal('jungwon_shin')" type="image" class="img" id="myBtn" src="img/headshots/jungwon_shin.jpg" />
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content row">
+					    <span class="close">&times;</span>
+					    <div class="col-lg-5 col-md-5 col-sm-12" style="padding: 0 !important;">
+					    	<a class="img-popup" href="#">
+					    		<img src="img/headshots/jungwon_shin.jpg" style="object-fit:cover;"/>
+					    	</a>
+					    </div>
+					    <div class="col-lg-7 col-md-7 col-sm-12">
+					    	<div class="top-content">
+                  <p id="modal-name"><p>
+                  <p id="modal-hometown"> </p>
+                  <p id="modal-major"></p>
+                </div>
+                <p id="modal-bio"></p>
+					    </div>
+					  </div>
+					</div>
           <div class='team-member'>
-            <img id='circle' class='img-responsive team-member-photo' src='img/headshots/blank_prof.png'>
             <p>Jungwon Shin<br />Creative Team</p>
           </div>
         </div>
@@ -1149,7 +1214,9 @@ Delete unnecessary/redundant HTML
     'catherine_li': ['Catherine Li', 'Logistics Team', 'Singapore', 'Bioengineering &#39;18', 'Hello, I&#39;m Catherine and I am just a young person lucky to be alive and learning new things every day! I like dialogue, sociology, and talking about issues of identity, inequality, and social structures (i.e. throwing around big words I don&#39;t understand).'],
     'nancy_liang': ['Nancy Liang', 'Marketing/Outreach Team', 'Brooklyn, NY', 'Undeclared &#39;21', 'Probably in Klarman Hall, napping, or both! I enjoy drinking kombucha, my morning routine, and fluffy cats. I love long conversations with passionate people and practicing different languages. '],
     'jamie_suk': ['Jamie Suk', 'Creative Team', 'Pleasanton, CA', 'Government &#39;18', 'Loves: San Francisco, ice cream, grocery shopping, eating cereal at midnight. Hobbies: Finding new Instagram pages of golden retrievers to follow'],
-    'tae_kwak': ['Tae Kwak', 'Creative Team', 'Jacksonville, FL', 'Economics &#39;19', 'My name is Tae, and I study Economics. I like spending my time on anything that&#39;s not schoolwork.']
+    'tae_kwak': ['Tae Kwak', 'Creative Team', 'Jacksonville, FL', 'Economics &#39;19', 'My name is Tae, and I study Economics. I like spending my time on anything that&#39;s not schoolwork.'],
+    'rosalind_ma': ['Rosalind Ma', 'Creative Team', 'Allen, TX', 'Biological Sciences &#39;18', 'I’m a senior that will be going to medical school next Fall. I love to play tennis and have watched more than half of the series on Netflix.'],
+    'jungwon_shin': ['Jungwon Shin', 'Logistics Team', 'Staten Island, NY', 'Information Science, &#39;20', 'I am Jungwon Shin, majoring in Information Science and minoring in Business. I love drawing, painting, video-gaming, and reading books in my free time.']
 
   }
   // Get the modal

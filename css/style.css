@@ -11,13 +11,19 @@ Author URI: http://bootstrapthemes.co
 @font-face {
  font-family: 'Freight-Sans';
  src: url('../fonts/Freight Sans Book.otf') format('truetype');
- font-weight: book;
+ font-weight: normal;
  font-style: normal;
  }
 @font-face {
  font-family: 'Freight-Sans';
  src: url('../fonts/Freight Sans Light.otf') format('truetype');
- font-weight: light;
+ font-weight: lighter;
+ font-style: normal;
+  }
+@font-face {
+ font-family: 'Freight-Sans';
+ src: url('../fonts/Freight Sans Medium.otf') format('truetype');
+ font-weight: medium;
  font-style: normal;
   }
 @font-face { font-family: Avenir-Book; src: url('../fonts/Avenir-Book.otf'); }
@@ -415,7 +421,7 @@ a:hover{
 
 .single_banner_text h2{
 	color:#333b46;
-	font-weight:book;
+	font-weight: normal;
 }
 .single_banner_text h5{
 	font-size:16px;
@@ -463,9 +469,10 @@ a:hover{
 }
 
 #team-header {
-  font-family: 'Avenir-Book';
-  font-size:30px;
+  font-family: 'Freight-Sans';
+  font-size:50px;
   margin-bottom: 30px;
+  font-weight: medium;
 }
 
 #circle {
@@ -616,7 +623,7 @@ input:focus {outline:none;}
 .head_title h2{
 	font-family:'Freight-Sans';
 	font-size:2.5rem;
-	font-weight:book;
+	font-weight:normal;
 	color:#333b46;
 }
 .head_title p{
@@ -701,7 +708,7 @@ input:focus {outline:none;}
 .hotel_title h2{
 	font-family:'Freight-Sans';
 	font-size:2.5rem;
-	font-weight:book;
+	font-weight: normal;
 	color:#333b46;
 }
 .hotel_title p{
@@ -852,7 +859,7 @@ input:focus {outline:none;}
 .single_steps h4{
 	margin:30px auto 20px auto;
 	font-family:'Freight-Sans';
-	font-weight:book;
+	font-weight: normal;
 }
 .single_steps p{
 	line-height: 25px;
@@ -918,22 +925,6 @@ input:focus {outline:none;}
 	display:table-cell;
 }
 
-/*.single_service_area_one{
-    background: url(../imgs/cornell3.jpeg) no-repeat left top;
-    height: 337px;
-    width:100%;
-    margin-top: 50px;
-}*/
-/*.single_service_area_two{
-	background: url(../imgs/cornell2.jpg) no-repeat right top;
-    height: 337px;
-    width:100%;
-}
-.single_service_area_three{
-    background: url(../imgs/cornell.jpeg) no-repeat left top;
-    height: 337px;	
-    width:100%;
-}*/
 .single_service_area img{
 	margin-top: 10%;
 }
@@ -1033,121 +1024,11 @@ form #running {
 }
 .wufoo-form-container {
   font-family: 'Freight-Sans', sans-serif;
-  font-weight: book;
-}
-
-
-/* mixitup section 
-
-
-.main_mixi_content{
-    max-height: 900px;
-    
-}
-.main_mix_menu{
-    margin-bottom:50px;
-}
-.single_mixi_portfolio{
-    position:relative;
-    float: left;
-    border: 3px solid #fff;
-    width:100%;
-	height:100px;
-}
-.single_mixi_portfolio img{
-    width:100%;
-}
-.single_mixi_portfolio:hover .mixi_portfolio_overlay{
-    opacity:1;
-}
-.mixi_portfolio_overlay{
-    background:#565d67;
-    position:absolute;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    transition:.5s;
-    opacity:0;
-}
-.mixi_portfolio_overlay .overflow_hover_text{
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    width: 70%;
-}
-.mixi_portfolio_overlay .overflow_hover_text i{
-    color:#fff;
-    font-size: 40px;
-}
-.mixi_portfolio_overlay .overflow_hover_text h2{
-    color:#fff;
-    font-size:22px;
-    font-family:'titillium_websemibold';
-}
-.mixi_portfolio_overlay .overflow_hover_text p{
-    color:#fff;
-}
-
-
-.test .mix{
-  display: none;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform-origin: 50% 0;
+  font-weight:normal;
 }
 
 
 
-/* Subcribs Section */
-
-.subcribs{
-	background:url(../images/subcribecebg.jpg) no-repeat top center;
-	background-size:cover;
-}
-
-.main_subcribs_content{
-	
-}
-
-.single_subcribs h4{
-	font-size:20px;
-	font-family:'Freight-Sans';
-	font-weight:book;
-	color:#fff;
-}
-.single_subcribs p{
-    font-size: 16px;
-    font-family: 'Freight-Sans';
-    font-weight: 300;
-    color: #fff;
-    line-height: 25px;
-}
-.single_subcribs_right{
-	margin-top: 50px;
-}
-.single_subcribs_right input[type="text"]{
-border: 1px solid #fff;
-    height: 50px;
-    padding: 5px 10px;
-    background: none;
-    color: #fff;
-    font-family: 'Avenir';
-    /*font-weight: 300;*/
-    font-size: 12px;
-	width:60%;
-}
-.single_subcribs_right input[type="submit"]{
-    border: 1px solid #fff;
-    background: none;
-    height: 50px;
-    margin-left: -5px;
-    color: #fff;
-	font-family:'Freight-Sans';
-	font-weight:book;
-    font-size:12px;	
-	width:20%;
-	outline: none;
-}
 
 /* Team Section */
 
@@ -1172,7 +1053,7 @@ border: 1px solid #fff;
 	font-size:17px;
 	color:#333b46;
 	font-family:'Freight-Sans';
-	font-weight:book;
+	font-weight:normal;
 }
 .single_team_name p{
 	font-size:12px;
@@ -1249,7 +1130,7 @@ color:#fff;
 	color:#ed1f24;
 	font-size:20px;
 	font-family:'Freight-Sans';
-	font-weight:book;
+	font-weight:normal;
 }
 .owl-theme .owl-controls {
     margin-top: 25px;
@@ -1316,7 +1197,7 @@ color:#fff;
 }
 .choose_pricing_text p.price{
 	font-size:30px;
-	font-weight:book;
+	font-weight:normal;
 	color:#ed1f24;
 	margin-top:30px;
 	text-transform:uppercase;
@@ -1428,3 +1309,40 @@ color:#fff;
 
 }
 
+
+/****** Schedule ********/
+
+.schedule h2{
+	font-family: Avenir-Book;
+	color: #ed1f24;
+	text-transform:none;
+}
+
+
+#day div{
+	/*outline: 1px solid #ed1f24;*/
+	background-color: #ed1f24;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius:10px;
+	display: flex;
+  	align-items: center
+	
+	
+}
+
+#day p{
+	font-family:Avenir-Book;
+	font-size:40px;
+	color: #fff;
+	margin:0;
+
+}
+
+.one_sched {
+	margin-bottom:30px;
+}
+
+.one_sched h3{
+	text-transform:none;
+}
