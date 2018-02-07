@@ -526,6 +526,7 @@ input[type=image]:hover {
 .modal-content p{
 	font-family: 'Freight-Sans';
 	font-size:18px;
+	font-weight:lighter;
 }
 
 .top-content p{
@@ -1346,3 +1347,11 @@ color:#fff;
 .one_sched h3{
 	text-transform:none;
 }
+
+
+/***** TRANSPORTATION *****/
+.transpo-single li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: circle;
+ }
