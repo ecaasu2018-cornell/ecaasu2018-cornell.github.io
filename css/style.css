@@ -26,7 +26,23 @@ Author URI: http://bootstrapthemes.co
  font-weight: medium;
  font-style: normal;
   }
-@font-face { font-family: Avenir-Book; src: url('../fonts/Avenir-Book.otf'); }
+@font-face {
+ font-family: 'Freight-Sans';
+ src: url('../fonts/Freight Sans Medium Italic.otf') format('truetype');
+ font-weight: medium;
+ font-style: italic;
+  }
+
+
+@font-face { 
+	font-family: Avenir-Book; 
+	src: url('../fonts/Avenir-Book.otf'); 
+}
+
+@font-face { 
+	font-family: Avenir-Medium; 
+	src: url('../fonts/Avenir-Medium.otf'); 
+}
 
 
 
@@ -189,6 +205,11 @@ ul{
 a:hover{
 	text-decoration:none;
 }
+a.nounderline:link 
+{ 
+text-decoration:none; 
+} 
+
 .btn {
 	border: 1px solid #3c3c3c;
 	display: inline-block;
@@ -650,20 +671,7 @@ input:focus {outline:none;}
 	/*height: 300px;*/
 	/*margin-bottom: 80px;*/
 }
-/*.single_wedo:hover{
-	background:#ed1f24;
-	color:#fff;
-}
-.single_wedo:hover .single_left_icon i{
-	background: #ffffff;
-	color:#ed1f24;
-}
-.single_wedo:hover .single_right_text h4{
-	color:#fff;
-}
-.single_wedo:hover .separator2{
-	border-bottom: 3px solid #fff;
-}*/
+
 
 .single_left_icon{
     width: 25%;
@@ -1317,6 +1325,7 @@ color:#fff;
 	font-family: Avenir-Book;
 	color: #ed1f24;
 	text-transform:none;
+
 }
 
 
@@ -1351,7 +1360,93 @@ color:#fff;
 
 /***** TRANSPORTATION *****/
 .transpo-single li {
-    font-size: 14px;
-    margin-left: 10px;
-    list-style-type: circle;
+    font-size: 18px;
+    margin-left: 20px;
+    list-style-type: disc;
+    font-family:'Avenir-Book';
  }
+
+ .transpo-single li li {
+ 	list-style-type: circle;
+ 	font-family:'Avenir-Book';
+ }
+
+ .transpo-single li li li{
+ 	list-style-type: square;
+ 	font-family:'Avenir-Book';
+ }
+
+.single_wedo_transpo{
+	margin-top:40px;
+	border:2px solid #ddd;
+	padding:30px;
+	border-radius:4px;
+	transition:.6s;
+	overflow:200px;
+	/*height: 420px;*/
+	/*height: 300px;*/
+	/*margin-bottom: 80px;*/
+}
+
+.transpo-single{
+	/*width:70%;*/
+	/*text-align: justify;*/
+	min-width:250px;
+	display:block;
+}
+
+.transpo-single h4{
+	font-family:'Freight-Sans'; 
+	font-weight: medium;
+	font-style: italic;
+}
+
+.transpo-single p{
+	line-height:25px;
+	font-family: 'Avenir';
+	font-size: 18px;
+}
+
+.button {
+	background-color: #F3F3F3;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #F3F3F3;
+    color: #F3F3F3;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display:block;
+}
+
+button img {
+	width:100px;
+}
+
+button h3 {
+	vertical-align: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #F3F3F3;
+    display: none;
+    /*border:none;*/
+    overflow: auto;
+}
+
+button .separator2 {
+	margin-bottom:0px;
+}
