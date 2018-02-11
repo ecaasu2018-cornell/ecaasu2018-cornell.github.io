@@ -1364,22 +1364,21 @@ color:#fff;
     margin-left: 20px;
     list-style-type: disc;
     font-family:'Avenir-Book';
+    margin-bottom:0px;
  }
 
  .transpo-single li li {
  	list-style-type: circle;
- 	font-family:'Avenir-Book';
  }
 
  .transpo-single li li li{
- 	list-style-type: square;
- 	font-family:'Avenir-Book';
+ 	list-style-type: disc;
  }
 
 .single_wedo_transpo{
 	margin-top:40px;
 	border:2px solid #ddd;
-	padding:30px;
+	/*padding:30px;*/
 	border-radius:4px;
 	transition:.6s;
 	overflow:200px;
@@ -1411,12 +1410,27 @@ color:#fff;
 	background-color: #F3F3F3;
 }
 
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #F3F3F3;
+    display: none;
+    /*border:none;*/
+    overflow: auto;
+    border:none;
+    box-shadow:none;
+}
+
+.panel p{
+	margin-bottom: -2px;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #F3F3F3;
     color: #F3F3F3;
     cursor: pointer;
-    padding: 18px;
+    /*padding: 18px;*/
     width: 100%;
     text-align: left;
     border: none;
@@ -1430,7 +1444,11 @@ button img {
 }
 
 button h3 {
-	vertical-align: center;
+	/*vertical-align: center;*/
+	margin-top:20px;
+	font-family:'Freight-Sans';
+	font-weight:normal;
+	text-transform:none;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -1438,15 +1456,8 @@ button h3 {
     background-color: #ccc;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: #F3F3F3;
-    display: none;
-    /*border:none;*/
-    overflow: auto;
-}
 
 button .separator2 {
 	margin-bottom:0px;
+	width: 100px;
 }
