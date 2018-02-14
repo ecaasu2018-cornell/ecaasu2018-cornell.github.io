@@ -1265,6 +1265,9 @@ color:#fff;
 	padding:20px 0px;
 	color:#fff;
 	margin-top:10px;
+	font-family:'Freight-Sans';
+	font-weight:lighter;
+	font-size:25px;
 }
 .main_footer p i{
 	padding:0px 10px;
@@ -1355,6 +1358,7 @@ color:#fff;
 
 .one_sched h3{
 	text-transform:none;
+	font-size: 23px;
 }
 
 
@@ -1468,6 +1472,10 @@ button .separator2 {
 	margin-top:50px;
 }
 
+.bottom-buffer {
+	margin-bottom:50px;
+}
+
 
 /********** PROGRAMMING **********/
 
@@ -1476,10 +1484,21 @@ button .separator2 {
     justify-content: center;
 }
 
-.tab-pane h3{
+.nav-pills{
 	font-family: 'Avenir-Book';
 	font-size:25px;
 	text-transform: uppercase;
+}
+
+.tab-pane h3 {
+	font-family: 'Avenir-Book';
+	font-size:35px;
+}
+
+.tab-pane h4 {
+	font-family:'Freight-Sans';
+	font-style: italic;
+	font-weight:normal;
 }
 
 #one-pill {
@@ -1491,7 +1510,7 @@ button .separator2 {
 	padding: 10px 50px;
 }
 
-active {
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
 	background-color: #ed1f24;
 }
 
@@ -1501,4 +1520,25 @@ active {
 	color: #fff;
 }
 
+
+.tab-content p {
+	font-family:'Avenir-Book';
+	font-size:16px;
+}
+
+.img-circle {
+	border-radius:50%;
+}
+
+
+.parent-p{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.speak-left {
+	text-align:right;
+}
 
