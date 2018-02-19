@@ -20,6 +20,12 @@ Author URI: http://bootstrapthemes.co
  font-weight: lighter;
  font-style: normal;
   }
+ @font-face {
+ font-family: 'Freight-Sans';
+ src: url('../fonts/Freight Sans Light Italic.otf') format('truetype');
+ font-weight: lighter;
+ font-style: italic;
+  }
 @font-face {
  font-family: 'Freight-Sans';
  src: url('../fonts/Freight Sans Medium.otf') format('truetype');
@@ -44,6 +50,15 @@ Author URI: http://bootstrapthemes.co
 	src: url('../fonts/Avenir-Medium.otf'); 
 }
 
+@font-face {
+	font-family:Avenir-Light;
+	src: url('../fonts/Avenir-Light.otf');
+}
+
+@font-face {
+	font-family:Avenir-XLight;
+	src: url('../fonts/AvenirNext-UltraLight.otf');
+}
 
 
 body {
@@ -386,6 +401,22 @@ text-decoration:none;
 	
 }
 
+/*.navbar-nav ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.navbar-nav li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.navbar-nav li:before {
+  content: "+";
+  padding-right: 5px;
+}
+*/
 .dropdown-content {
     display: none;
     position: absolute;
@@ -1490,24 +1521,31 @@ button .separator2 {
 	text-transform: uppercase;
 }
 
-.tab-pane h3 {
+#performers h3, #speakers h3 {
 	font-family: 'Avenir-Book';
 	font-size:35px;
 }
 
-.tab-pane h4 {
+#performers h4, #speakers h4{
 	font-family:'Freight-Sans';
 	font-style: italic;
 	font-weight:normal;
 }
 
+#performers h5, #speakers h5 {
+	font-family: 'Avenir-XLight';
+	font-size:23px;
+	text-transform:none;
+}
+
 #one-pill {
-	margin: 30px;
+	text-align:center;
+	margin: 30px 30px;
 	/*padding:30px;*/
 }
 
 #one-pill a {
-	padding: 10px 50px;
+	/*padding: 10px 50px;*/
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
@@ -1542,3 +1580,51 @@ button .separator2 {
 	text-align:right;
 }
 
+.work-single{
+	min-width:250px;
+	display:block;
+    border:2px solid #ddd;
+    margin-bottom:20px;
+}
+
+.work-single h3{
+	font-family: 'Freight-Sans';
+	font-weight:medium;
+	font-style:normal;
+	font-size:35px;
+
+}
+.work-single h4 {
+	font-family:'Freight-Sans';
+	font-style: italic;
+	font-weight:lighter;
+	font-size:18px;
+}
+
+.work-single h5 {
+	font-family: 'Freight-Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size:22px;
+}
+
+.work-desc h5 {
+	font-size: 18px;
+	text-transform:none;
+	font-family: 'Avenir-Book';
+}
+
+.work-desc h4 {
+	font-family: 'Freight-Sans';
+	font-weight:medium;
+	font-style:italic;
+	font-size:22px;
+}
+
+.work-desc h3 {
+	font-size: 20px;
+}
+
+.work-desc .top-buffer {
+	margin-top: 30px;
+}
