@@ -1590,14 +1590,15 @@ button .separator2 {
 	min-width:250px;
 	display:block;
     border:2px solid #ddd;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 .work-single h3{
 	font-family: 'Freight-Sans';
 	font-weight:medium;
 	font-style:normal;
-	font-size:35px;
+	font-size:25px;
+	margin-top:5px;
 
 }
 .work-single h4 {
@@ -1605,13 +1606,18 @@ button .separator2 {
 	font-style: italic;
 	font-weight:lighter;
 	font-size:18px;
+	margin-top:5px;
+}
+
+.work-single .accordion h4 {
+	text-align:right;
 }
 
 .work-single h5 {
 	font-family: 'Freight-Sans';
 	font-style: normal;
 	font-weight: normal;
-	font-size:22px;
+	font-size:17px;
 }
 
 .work-desc h5 {
@@ -1625,6 +1631,7 @@ button .separator2 {
 	font-weight:medium;
 	font-style:italic;
 	font-size:22px;
+	line-height:100%;
 }
 
 .work-desc h3 {
