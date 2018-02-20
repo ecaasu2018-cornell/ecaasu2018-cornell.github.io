@@ -417,6 +417,12 @@ text-decoration:none;
   padding-right: 5px;
 }
 */
+
+.navbar-nav li.dropdown > a:before {
+   color: #777;
+   content: '► ';
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
