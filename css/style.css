@@ -1513,6 +1513,16 @@ button .separator2 {
 	margin-bottom:50px;
 }
 
+#spon-text {
+	margin-top:20px;
+	text-align:center;
+}
+
+#spon-text p{
+	font-size:35px;
+	font-family: 'Avenir-Book';
+}
+
 
 /********** PROGRAMMING **********/
 
