@@ -40,14 +40,14 @@ Author URI: http://bootstrapthemes.co
   }
 
 
-@font-face { 
-	font-family: Avenir-Book; 
-	src: url('../fonts/Avenir-Book.otf'); 
+@font-face {
+	font-family: Avenir-Book;
+	src: url('../fonts/Avenir-Book.otf');
 }
 
-@font-face { 
-	font-family: Avenir-Medium; 
-	src: url('../fonts/Avenir-Medium.otf'); 
+@font-face {
+	font-family: Avenir-Medium;
+	src: url('../fonts/Avenir-Medium.otf');
 }
 
 @font-face {
@@ -71,7 +71,7 @@ body {
 
 
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 .preloader {
     position: fixed;
@@ -141,7 +141,7 @@ input[type="color"],
 .form-control {
 	border: 1px solid #ddd;
 	font-size: 16px;
-	font-family: 'Merriweather', serif;	
+	font-family: 'Merriweather', serif;
 	height: 45px;
 	border-bottom:1px solid #ddd;
 	background-color: rgba(255, 255, 255, 0);
@@ -171,7 +171,7 @@ h2 {
 	line-height: 38px;
 	font-weight: 600;
 	font-family: 'Freight-Sans', sans-serif;
-	
+
 }
 
 h3 {
@@ -220,10 +220,10 @@ ul{
 a:hover{
 	text-decoration:none;
 }
-a.nounderline:link 
-{ 
-text-decoration:none; 
-} 
+a.nounderline:link
+{
+text-decoration:none;
+}
 
 .btn {
 	border: 1px solid #3c3c3c;
@@ -297,7 +297,7 @@ text-decoration:none;
     padding:3px 0px;
     width: 8%;
     margin: 0 auto;
-    margin-bottom: 20px;	
+    margin-bottom: 20px;
 }
 .separator2{
     border-bottom: 3px solid #898989;
@@ -361,15 +361,15 @@ text-decoration:none;
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
-    top: 0; 
-	left: 0; 
-	right: 0; 
+    top: 0;
+	left: 0;
+	right: 0;
 	z-index: 300;
     /*box-shadow: 0 6px 12px rgba(0, 0, 0, .175);*/
     /*-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);*/
     background-color: #fff;
 	height:80px;
-	
+
 }
 .container-fluid {
     margin-top: 15px;
@@ -379,8 +379,8 @@ text-decoration:none;
 	margin-top:0px;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
+    background-color: transparent;
+    border-color: transparent;
 	transition:.6s;
 }
 .navbar-default .navbar-nav>li>a {
@@ -398,7 +398,7 @@ text-decoration:none;
 .main_menu_bg .default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	color:#ed1f24;
 	background-color:transparent;
-	
+
 }
 
 /*.navbar-nav ul {
@@ -534,12 +534,12 @@ text-decoration:none;
 }
 
 #circle {
-   border-radius:50%;  
+   border-radius:50%;
    width:250px;
    height:250px;
    object-fit:cover;
    margin-left:0px;
-   margin: auto;    
+   margin: auto;
    display: block;
    position:relative;
 }
@@ -656,7 +656,7 @@ input:focus {outline:none;}
   top: 0;
   transition: opacity 0.25s;
   z-index: 1;
-  
+
 
 }
 
@@ -696,7 +696,7 @@ input:focus {outline:none;}
 }
 .wedo_content_area{
 	padding-bottom:100px;
-    overflow: hidden;	
+    overflow: hidden;
 }
 .single_wedo{
 	margin-top:40px;
@@ -727,7 +727,7 @@ input:focus {outline:none;}
     height: 100px;
     text-align: center;
     line-height: 62px;
-	
+
 }
 .single_right_text{
 	/*width:70%;*/
@@ -805,7 +805,7 @@ input:focus {outline:none;}
     height: 100px;
     text-align: center;
     line-height: 62px;
-	
+
 }
 
 #transportation {
@@ -872,7 +872,7 @@ input:focus {outline:none;}
 }
 .single_steps{
 	margin-top: 60px;
-	
+
 }
 .single_steps:hover a i{
 	color: #fff;
@@ -888,7 +888,7 @@ input:focus {outline:none;}
     display: inline-block;
     text-align: center;
     padding: 6px;
-    border-radius: 50%;	
+    border-radius: 50%;
 	transition:.6s;
 }
 .single_steps a i{
@@ -981,8 +981,8 @@ input:focus {outline:none;}
 }
 .single_service h4{
 	/*color: #000;*/
-	
-	
+
+
 }
 .single_service p{
 	/*color: #000;*/
@@ -993,7 +993,7 @@ input:focus {outline:none;}
 .single_service p.service_P{
     max-width: 70%;
     margin-left: 15%;
-	
+
 }
 
 /* LINKS Section */
@@ -1017,7 +1017,7 @@ input:focus {outline:none;}
 	color:#fff;
     font-size: 20px;
     font-family: 'Freight-Sans';
-    font-weight: 300;	
+    font-weight: 300;
 }
 
 /* REGISTRATION */
@@ -1104,7 +1104,7 @@ form #running {
 .single_team_name p{
 	font-size:12px;
 	font-family:'Freight-Sans';
-	font-weight: 200;	
+	font-weight: 200;
 }
 
 .single_team_overlay{
@@ -1115,7 +1115,7 @@ form #running {
 	left:5%;
 	bottom:5%;
 	opacity:0;
-	transition:.6s;	
+	transition:.6s;
 }
 .single_team_overlay p{
 	color:#fff;
@@ -1149,7 +1149,7 @@ color:#fff;
     font-weight: 300;
     letter-spacing: 4px;
 	color:#fff;
-	
+
 }
 .testimonial_overlay {
     background: rgba(39, 39, 39, 0.86);
@@ -1157,7 +1157,7 @@ color:#fff;
 }
 .single_testimonial_img{
 	margin-top:40px;
-	
+
 }
 .single_testimonial_img img{
 	margin-bottom:30px;
@@ -1169,7 +1169,7 @@ color:#fff;
     font-style: italic;
     margin-bottom: 30px;
 	color:#fff;
-	
+
 }
 .single_testimonial_img a{
 	margin-top:40px;
@@ -1377,8 +1377,8 @@ color:#fff;
 	border-radius:10px;
 	display: flex;
   	align-items: center
-	
-	
+
+
 }
 
 #day p{
@@ -1436,7 +1436,7 @@ color:#fff;
 }
 
 .transpo-single h4{
-	font-family:'Freight-Sans'; 
+	font-family:'Freight-Sans';
 	font-weight: medium;
 	font-style: italic;
 }
@@ -1533,7 +1533,7 @@ button .separator2 {
 
 .nav-pills{
 	font-family: 'Avenir-Book';
-	font-size:25px;
+	font-size:22px;
 	text-transform: uppercase;
 }
 
@@ -1556,11 +1556,12 @@ button .separator2 {
 
 #one-pill {
 	text-align:center;
-	margin: 30px 30px;
+	margin: 30px 5px;
 	/*padding:30px;*/
 }
 
 #one-pill a {
+    max-width: 180px;
 	/*padding: 10px 50px;*/
 }
 
@@ -1650,4 +1651,27 @@ button .separator2 {
 
 .work-desc .top-buffer {
 	margin-top: 30px;
+}
+
+#caucus h3 {
+    font-family:'Freight-Sans';
+    font-style:normal;
+    font-weight:normal;
+    font-size:25px;
+    text-transform:none;
+}
+
+#caucus h4 {
+    font-family:'Avenir-Book';
+    text-transform: none;
+    font-size:18px;
+}
+
+#caucus h5{
+    font-family: 'Freight-Sans';
+    font-weight:normal;
+    font-style:italic;
+    font-size:20px;
+    text-transform:none;
+    text-align:right;
 }
