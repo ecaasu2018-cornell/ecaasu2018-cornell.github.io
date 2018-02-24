@@ -1368,6 +1368,14 @@ color:#fff;
 
 }
 
+.schedule h5 {
+    font-family:'Freight-Sans';
+    font-weight:lighter;
+    font-style:italic;
+    text-transform:none;
+    color:#ed1f24;
+}
+
 
 #day div{
 	/*outline: 1px solid #ed1f24;*/
