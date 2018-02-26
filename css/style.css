@@ -1684,3 +1684,12 @@ button .separator2 {
     text-transform:none;
     text-align:right;
 }
+
+#caucus h6{
+    font-family: 'Avenir-XLight';
+    font-size:18px;
+    text-transform:none;
+    text-align:right;
+    color: #ed1f24;
+    margin-top:6px;
+}
