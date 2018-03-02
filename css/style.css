@@ -1376,6 +1376,14 @@ color:#fff;
     color:#ed1f24;
 }
 
+.schedule h4 {
+    font-family:'Avenir-Book';
+    font-size:25px;
+    color:#ed1f24;
+    margin: 30px 0px ;
+    text-transform:none;
+}
+
 
 #day div{
 	/*outline: 1px solid #ed1f24;*/
