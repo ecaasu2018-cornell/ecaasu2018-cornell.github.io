@@ -398,8 +398,14 @@ text-decoration:none;
 .main_menu_bg .default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	color:#ed1f24;
 	background-color:transparent;
-
 }
+
+@media only screen and (max-width: 765px){
+    .navbar-collapse {
+        background-color: #fff;
+    }
+}
+
 
 /*.navbar-nav ul {
   list-style: none;
