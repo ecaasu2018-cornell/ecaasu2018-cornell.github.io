@@ -322,27 +322,35 @@ text-decoration:none;
     margin-bottom: 20px;
 }
 .banner .scroll_btn {
-	background: url(../images/scroll.gif) 50% 50% no-repeat rgba(215, 181 ,94, 0);
-	border: 2px solid #fff;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
+	/*background: url(../images/scroll.gif) 50% 50% no-repeat rgba(215, 181 ,94, 0);*/
+	/*border: 2px solid #fff;*/
+    background-color: #ed1f24;
+	/*border-radius: 10%;*/
+	/*-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;*/
 	display: block;
-	height: 40px;
-	margin: 10px auto;
+	/*height: 40px;*/
+	margin-left:-125px;
 	-webkit-transition: all 500ms ease-in-out 0s;
 	-moz-transition: all 500ms ease-in-out 0s;
 	-ms-transition: all 500ms ease-in-out 0s;
 	-0-transition: all 500ms ease-in-out 0s;
 	transition: all 500ms ease-in-out 0s;
-	width: 40px;
+	width: 250px;
+    height:auto;
 	position:absolute;
 	left:50%;
-	bottom:0;
+	bottom:10px;
+}
+
+.scroll_btn p {
+    color: #fff;
+    font-family:'Avenir-Book';
+    margin:10px 10px 10px 10px;
 }
 
 .banner .scroll_btn:hover {
-	background: url(../images/scroll.gif) 50% 50% no-repeat;
+	/*background: url(../images/scroll.gif) 50% 50% no-repeat;*/
 	opacity: .85;
 	-moz-opacity: .85;
 	-o-opacity: .85;
@@ -353,6 +361,8 @@ text-decoration:none;
 	-o-transform: scale(1.1);
 
 }
+
+
 
 
 
