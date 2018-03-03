@@ -1717,3 +1717,34 @@ button .separator2 {
     color: #ed1f24;
     margin-top:6px;
 }
+
+
+/** UPDATES PAGE **/
+
+.updates h3 {
+    text-transform: none;
+    font-family:'Avenir-Light';
+    font-weight:100;
+}
+
+.updates h5 {
+    text-transform: uppercase;
+    font-family: 'Freight-Sans';
+    font-weight:normal;
+    font-style:normal;
+    font-size:30px;
+    color: #ed1f24;
+}
+
+.updates h4 {
+    text-transform: none;
+}
+
+.updates h6 {
+    text-transform: none;
+    font-weight:100;
+}
+
+.updates .top-buffer2 {
+    margin-top:20px;
+}
